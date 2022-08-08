@@ -205,6 +205,7 @@ function start() {
         var x = 0;
 
         for (var i = 0; i < bufferLength; i++) {
+          // why ？ add 140 ？
           barHeight = (dataArray[i] + 140) * 2;
 
           canvasCtx.fillStyle =
